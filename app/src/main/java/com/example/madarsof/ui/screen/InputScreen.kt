@@ -24,9 +24,9 @@ fun InputScreen(
     navController: NavController
 ) {
 
-    var name by remember { mutableStateOf("fd") }
-    var age by remember { mutableStateOf("12") }
-    var jobTitle by remember { mutableStateOf("ddfd") }
+    var name by remember { mutableStateOf("") }
+    var age by remember { mutableStateOf("") }
+    var jobTitle by remember { mutableStateOf("") }
     var gender by remember { mutableStateOf("fdfdd") }
 
     Column(modifier = Modifier.padding(16.dp)) {
