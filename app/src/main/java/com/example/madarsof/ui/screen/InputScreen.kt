@@ -27,7 +27,7 @@ fun InputScreen(
     var name by remember { mutableStateOf("") }
     var age by remember { mutableStateOf("") }
     var jobTitle by remember { mutableStateOf("") }
-    var gender by remember { mutableStateOf("fdfdd") }
+    var gender by remember { mutableStateOf("") }
 
     Column(modifier = Modifier.padding(16.dp)) {
         TextField(
